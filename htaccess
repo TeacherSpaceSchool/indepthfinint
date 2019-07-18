@@ -1,0 +1,45 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page5456469.html
+
+RewriteEngine On
+
+RewriteRule ^home$ page5342703.html [NC]
+RewriteRule ^home/$ page5342703.html [NC]
+
+RewriteRule ^post1$ page5403465.html [NC]
+RewriteRule ^post1/$ page5403465.html [NC]
+
+RewriteRule ^post2$ page5453854.html [NC]
+RewriteRule ^post2/$ page5453854.html [NC]
+
+RewriteRule ^post3$ page5453856.html [NC]
+RewriteRule ^post3/$ page5453856.html [NC]
+
+RewriteRule ^post4$ page5454104.html [NC]
+RewriteRule ^post4/$ page5454104.html [NC]
+
+RewriteRule ^work$ page5454106.html [NC]
+RewriteRule ^work/$ page5454106.html [NC]
+
+RewriteRule ^careers$ page5454715.html [NC]
+RewriteRule ^careers/$ page5454715.html [NC]
+
+RewriteRule ^services$ page5455473.html [NC]
+RewriteRule ^services/$ page5455473.html [NC]
+
+RewriteRule ^contacts$ page5457086.html [NC]
+RewriteRule ^contacts/$ page5457086.html [NC]
+
+RewriteRule ^blog$ page5458631.html [NC]
+RewriteRule ^blog/$ page5458631.html [NC]
+
+RewriteRule ^post5$ page5770635.html [NC]
+RewriteRule ^post5/$ page5770635.html [NC]
+
+RewriteRule ^post6$ page6244308.html [NC]
+RewriteRule ^post6/$ page6244308.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6238-6633-4536-b861-336239336266/favicon_3.ico [R=302,L]
+
